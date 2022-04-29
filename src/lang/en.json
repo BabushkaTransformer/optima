@@ -1,0 +1,9 @@
+{
+  "hi": "Hello",
+  "bye": "Goodbye",
+  "nested": { "value": "Test" },
+  "menu": {
+    "contact": "Contact",
+    "map": "Map"
+  }
+}

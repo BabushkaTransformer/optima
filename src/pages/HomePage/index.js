@@ -9,6 +9,7 @@ export const HomePage = () => {
   return (
     <div>
       <Link to='/posts'>asdf</Link>
+      <Link to='/application'>asdf</Link>
       <Link to='/lang'>lang</Link>
       <div className={isDarkMode ? 'dark' : 'light'}>asdf</div>
       <p>Current theme: {isDarkMode ? 'dark' : 'light'}</p>

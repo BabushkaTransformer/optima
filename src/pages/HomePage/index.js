@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDarkMode } from '../../hooks/useDarkMode.js';
@@ -8,7 +9,9 @@ export const HomePage = () => {
 
   return (
     <div>
+      <Button>asd</Button>
       <Link to='/posts'>asdf</Link>
+  
       <Link to='/application'>asdf</Link>
       <Link to='/lang'>lang</Link>
       <div className={isDarkMode ? 'dark' : 'light'}>asdf</div>
